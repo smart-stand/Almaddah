@@ -438,7 +438,17 @@ a {
     background: #EA4335;
     color: #ffffff;
 } /* Location */
+.social-card:nth-child(5) .social-icon {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+} /* Google Review */
 
+.social-card:nth-child(5) .social-icon i {
+    background: linear-gradient(135deg, #EA4335 25%, #FBBC05 25% 50%, #34A853 50% 75%, #4285F4 75%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 /* =========================================
    FOOTER
